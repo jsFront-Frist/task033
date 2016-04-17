@@ -1,0 +1,43 @@
+.grid {
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    height: 700px;
+}
+.row-number dd {
+    float: left;
+    width: 20px;
+}
+.col-number {
+    position: absolute;
+    left: -60px;
+    display: inline-block;
+}
+.col-number dd {
+    margin-top: 43px;
+}
+table {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+tr {
+    border: 1px solid #000000;
+}
+#block {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 58px;
+    height: 57px;
+    box-sizing: border-box;
+    border-top: 5px solid blue;
+    background-color: yellow;
+    display: inline-block;
+}
+.middle {
+    margin: 0 auto;
+}
+#obey {
+    width: 600px;
+}
